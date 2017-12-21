@@ -16,7 +16,7 @@ class App extends Component {
   search(){
     console.log('this.state', this.state);
     const BASE_URL = 'http://www.omdbapi.com/?';
-    const FETCH_URL = `${BASE_URL}t=${this.state.query}&apikey=19fdf17c`;
+    const FETCH_URL = `${BASE_URL}t=${this.state.query}&apikey=xxxx`;
     console.log('FETCH_URL', FETCH_URL);
     fetch(FETCH_URL,{
       method : 'GET'
